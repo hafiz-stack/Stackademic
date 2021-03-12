@@ -1,8 +1,18 @@
 body {
-    background: blue;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
+    background-color: lightblue;
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
 
 img {
     width: 100px;
@@ -36,10 +46,9 @@ h1 {
       }
 
 p {
-    display: block;
+    display: inline;
     margin: 2px;
     padding: 4px;
-    
 }
 
 div {
