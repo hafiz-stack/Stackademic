@@ -1,8 +1,12 @@
 body {
-    background-color: blue;
+    color: black;
+    font-family: Roboto;
+    text-align: center;
+    position: relative;
+    left: auto;
   }
   
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 480px) {
     body {
       background-color: lightgreen;
     }
@@ -14,16 +18,20 @@ body {
     }
   }
 
-img {
-    width: 100px;
-}
-ul {
-    list-style-image: url("track.jpg");
-  }
-
 li:hover{
     transform: scale(0.92);
+}
 
+h1 {
+  color: red;
+  text-align: left;
+  background: url(track.jpeg);
+  height: 200px;
+}
+
+h2 {
+  position: static;
+  text-align: center;
 }
 
 h2:hover, h3:hover {
@@ -31,27 +39,13 @@ h2:hover, h3:hover {
 }
 a {
     color: brown;
+    font-weight: bold;
 }
 
-h1 {
-    background-color: greenyellow;
+
+section {
+    position: relative;
     text-align: center;
-    height: 200px;
-    animation-name: h1-animation;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-
-}
-      
-      @keyframes h1-animation {
-        0%   {background-color: green;}
-        25%  {background-color: yellow;}
-        50%  {background-color: red;}
-        100% {background-color: blue;}
-      }
-
-p {
-    display: inline;
     margin: 2px;
     padding: 4px;
 }
@@ -69,29 +63,23 @@ div {
         50% {transform: rotateX(180deg);}
 }
 
-ul {
-    list-style-image: url("images/tiny-coffee-cup.gif");
-  }
-  a:link, a:visited{
-    text-decoration: none;
-    color: brown;
-    font-weight: bold;
-  }
+
   a:hover{
     color: black;
   }
+
   nav ul{
     display: flex;
-    padding: 0;
+    padding: 1px;
   }
   nav li{
     display: inline;
     float: left;
   }
   nav a:link, nav a:visited {
-    background-color: brown;
-    color: white;
-    display: block;
+    background-color: blue;
+    color: whitesmoke;
+    display: flex;
     width: 202px;
     text-align: center;
     padding: 10px;
@@ -100,6 +88,7 @@ ul {
     background-color: black;
     }
 footer {
+    position: static;
     text-align: center;
 }
 
