@@ -1,5 +1,4 @@
 body {
-    color: black;
     font-family: Roboto;
     text-align: center;
     position: relative;
@@ -8,7 +7,7 @@ body {
   
   @media screen and (min-width: 300px) {
     body {
-      background-color: lightgreen;
+      background-color: black;
     }
   }
   
@@ -27,6 +26,7 @@ h1 {
   text-align: left;
   background: url(track.jpeg);
   height: 200px;
+  width: auto;
 }
 
 h2 {
@@ -42,24 +42,30 @@ a {
     font-weight: bold;
 }
 
-
 section {
   margin-top: 50px;
   width: 90%;
   margin-left: 5%;
   padding: 50px;
   box-sizing: border-box;
-  background-color: #084B8A;
+  background-color: orangered;
   border-radius: 5px;
   color: white;
 }
 
-li {
+nav ul li {
   list-style-type: none;
+  background-color: orangered;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 3%;
+  width: 90%;
 }
+
 footer {
     position: static;
     text-align: center;
+    background-color: aqua;
 }
 
 footer ul {
