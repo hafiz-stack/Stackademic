@@ -64,6 +64,11 @@ section {
   justify-content: space-around;
 }
 
+@media (max-width: 769px) {
+  .navigation {
+    flex-flow: column;
+  }
+
 footer {
     position: static;
     text-align: center;
